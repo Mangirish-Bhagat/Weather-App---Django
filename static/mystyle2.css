@@ -1,0 +1,105 @@
+* {
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    /*color: #fff;*/
+}
+
+.heading-font, .secondary-font {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bolder;
+    color: #161c2d;
+}
+
+.weather .page-title-box .app-title {
+    float: left;
+}
+
+.weather .search-box {
+    float: right;
+    padding: 5px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
+    border: 1px solid #eef2f7;
+}
+
+.weather .search-box .search-submit {
+    background-color: #ffffff;
+    outline: none;
+    border: 0;
+}
+
+.weather .search-box .search-submit i {
+    color: #161c2d;
+    font-size: 20px;
+
+}
+
+.weather .search-box .search-form {
+    width: 100%;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    color: #161c2d;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 64rem) {
+    .weather .page-title-box .app-title {
+        float: none;
+        text-align: center;
+    }
+
+    .weather .search-box {
+        float: none;
+    }
+
+    .heading-font{
+        text-align: center;
+    }
+}
+
+.ml6 {
+    position: relative;
+    font-weight: bolder;
+    font-size: 4.5rem;
+}
+
+.ml5 {
+    position: relative;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.ml6 .text-wrapper, .ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.ml6 .letter, .ml5 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.ml5 .letter {
+    color: #161c2d !important;
+}
+
+.weather .card {
+    margin-bottom: 2rem;
+    box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
+    background-color: #fff;
+    border: 1px solid #eef2f7;
+}
+
+
+.owl-carousel .owl-item img {
+    width: 30%;
+    height: 30%;
+}
+

@@ -1,0 +1,36 @@
+{% extends 'weather/base.html' %}
+
+{% block content %}
+
+    <div class="weather">
+
+        <div class="container">
+            <div class="row d-flex justify-content-center m-5">
+                <div class="col-12 col-md-12">
+                    <div class="pb-2">
+                        <div class="search-title display-2 heading-font font-weight-bold">Search</div>
+                    </div>
+                    <div class="pb-2">
+                        <p class="text-gray-3s text-20 mb-2 secondary-font search-note">Hit enter to search or ESC
+                            to close</p>
+                    </div>
+                    <div class="search-box">
+                        <form method="post">
+                            <div class="media">
+                                {% csrf_token %}
+                                <div class="media-body">
+                                    <input type="text" name="city" id="city" class="search-form" placeholder="Search" spellcheck="false">
+                                </div>
+                                <button class="search-submit align-self-center" aria-label="search" type="submit">
+                                    <i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+{% endblock %}

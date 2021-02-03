@@ -1,0 +1,102 @@
+* {
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    background-color: rgb(52, 58, 64);
+    color: rgb(170, 184, 197);
+}
+
+.heading-font, .secondary-font {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.weather .page-title-box .app-title {
+    float: left;
+}
+
+.weather .search-box {
+    float: right;
+    padding: 5px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #161c2d;
+    box-shadow: rgba(49, 57, 66, 0.5) 0px 0px 35px 0px;
+}
+
+.weather .search-box .search-submit {
+    background-color: #ffffff;
+    outline: none;
+    border: 0;
+}
+
+.weather .search-box .search-submit i {
+    color: #161c2d;
+    font-size: 20px;
+
+}
+
+.weather .search-box .search-form {
+    width: 100%;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    color: #161c2d;
+    font-weight: 500;
+}
+
+
+.ml6 {
+    position: relative;
+    font-weight: bolder;
+    font-size: 4.5rem;
+}
+
+.ml5 {
+    position: relative;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.ml6 .text-wrapper, .ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.ml6 .letter, .ml5 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+
+.weather .card {
+    margin-bottom: 2rem;
+    border: 0;
+    box-shadow: rgba(49, 57, 66, 0.5) 0px 0px 35px 0px;
+    background-color: rgb(55, 64, 74);
+
+}
+
+.owl-carousel .owl-item img {
+    width: 50%;
+    height: 50%;
+}
+
+@media screen and (max-width: 64rem) {
+    .weather .page-title-box .app-title {
+        float: none;
+        text-align: center;
+    }
+
+    .weather .search-box {
+        float: none;
+    }
+
+    .heading-font {
+        text-align: center;
+    }
+}
